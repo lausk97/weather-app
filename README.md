@@ -1,6 +1,6 @@
 # 1-Day Weather Forecast Application (React)
 
-## How to run (For developers):
+## How to run:
 
 ### MAC-OS
 
