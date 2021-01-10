@@ -1,0 +1,95 @@
+.screen {
+  width: 100%;
+  height: 100vh;
+}
+
+.warm {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+    url("../assets/images/warm-bg-2.jpg");
+  background-size: cover;
+  transition: 0.4s ease-out;
+}
+
+.cold {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("../assets/images/cold-bg.jpg");
+  background-size: cover;
+  transition: 0.4s ease-out;
+}
+
+.chill {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("../assets/images/chill-bg.jpg");
+  background-size: cover;
+  transition: 0.4s ease-out;
+}
+
+.searchBox {
+  margin: 0 10%;
+
+  .searchBar {
+    display: block;
+    border-radius: 0 0 10px 10px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+    transition: 0.4s ease;
+  }
+
+  .searchBar:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.locationBox {
+  color: #fff;
+  text-align: center;
+  margin-top: 20%;
+
+  .location {
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 3px 3px rgba(50, 50, 50, 0.5);
+  }
+
+  .date {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: italic;
+    text-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+  }
+}
+
+.weatherBox {
+  color: #fff;
+  text-align: center;
+
+  .temp {
+    display: inline-block;
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 1.5rem auto;
+    padding: 1rem 1.5rem;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+
+    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  }
+
+  .weather {
+    font-size: 2rem;
+    font-weight: 500;
+
+    text-shadow: 3px 4px rgba(50, 50, 70, 0.5);
+  }
+
+  .sunny {
+    color: yellow;
+  }
+
+  .rain {
+    color: skyblue;
+  }
+}
