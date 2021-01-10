@@ -1,4 +1,4 @@
-# 1-Day Weather Forecast Application (React W Sassy CSS)
+# 1-Day Weather Forecast Application (React w/ Sassy CSS)
 
 ## How to run:
 
@@ -33,8 +33,8 @@ $ npm start
 
 ## How to retrieve city weather result:
 
-1. Type in **City Name** (e.g. Kuala Lumpur, Texas...) in the Search Box located on the top-middle of the application
-2. Press _Enter_
+1. Type in **_City Name_** (e.g. Kuala Lumpur, Texas...) in the Search Box located on the top-middle of the application
+2. Press **_Enter_**
 
 ## Additional Information
 
